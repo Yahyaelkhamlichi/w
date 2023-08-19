@@ -19,24 +19,24 @@ humidity.innerHTML=data.main.humidity +"%"
    km.innerHTML=data.wind.speed
 
  if( data.weather[0].main =="Clouds"){
-    img.src="images/clouds.png"
+    img.src=".images/clouds.png"
  }
 else if ( data.weather[0].main =="clear"){
-img.src="images/clear.png"
+img.src=".images/clear.png"
 }
 else if ( data.weather[0].main =="drizzle"){
-img.src="images/drizzle.png"
+img.src=".images/drizzle.png"
 }
 else if ( data.weather[0].main =="mist"){
-img.src="images/mist.png"
+img.src=".images/mist.png"
 }
 else if ( data.weather[0].main =="rain"){
 
-img.src="images/rain.png"
+img.src=".images/rain.png"
 }
 else if ( data.weather[0].main =="snow"){
 
-img.src="images/snow.png"
+img.src=".images/snow.png"
 }
 }
 btn.addEventListener("click", ()=>{
